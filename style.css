@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    font-family: "Bona Nova SC", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("home-bg.jpg");
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+li{
+    color: black;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    position: left fixed;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid rgb(141, 0, 141);; /* Add bottom border on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(141, 0, 141);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+
+.about-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.text2{
+    font-size: 1.5em;
+    display: flex;
+    text-align: center;
+}
+
+.text3{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text4{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+.details{
+    display: flex;
+}
+
+.index-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.index-about img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.index-about .text{
+    max-width: 60%;
+    margin-left: 20px;
+}
+.back-to-top:hover {
+    background-color: rgb(255, 1, 255);
+}
+
+.container1 {
+    padding: 20px;
+    align-items: center;
+}
+.container2{
+    padding: 90px;
+    align-items: center;
+}
+
+.home{
+    align-self: left;
+}
+img {
+    max-width: 550px;
+    height: 550px;
+    align-items: center;
+}
+.scroll-container {
+    width: auto;
+    height: auto;
+    overflow: auto; /* Add scrollbars when necessary */
+}
+
+.content {
+    height: auto; /* Example content height to create overflow */
+    text-align: right;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.experience, .education, .projects {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience li, .education li, .projects li {
+    margin-bottom: 10px;
+}
+
+.experience h3, .education h3, .projects h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.experience p, .education p, .projects p {
+    margin: 5px 0 0 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.container{
+    background-color: white;
+    color: black;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: purple;
+    background-color: rgb(255, 255, 255);;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: rgb(255, 1, 255);
+}
+
+.download-btn i {
+    margin-right: 8px;
+}
+
+.button{
+    color: white;
+    background: purple;
+}
+
+.box{
+    color: black;
+    size: 2px;
+    border-radius: 1px black;
+    border: #333;
+}
+
+.footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.footer .social-icons a:hover {
+    color: rgb(36, 0, 128);
+}
+
+.footer p {
+    margin: 5px 0;
+}
